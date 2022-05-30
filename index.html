@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Daftar Harga Reguler</h1>
+    <br />
+    <div class="satu">
+      <ul>
+        <li onclick="getInputValue()">ALBUMIN (ALB) 54,000</li>
+        <li>ASAM URAT DARAH 51,000</li>
+        <li>ASAM URAT URIN 51,000</li>
+        <li>AMILASE DARAH 163,000</li>
+        <li>AMILASE URIN 163,000</li>
+        <li>AMMONIAK 297,000</li>
+        <li>AMPHETAMIN (SABU-SABU) 81,000</li>
+        <li>ANALISA GAS DARAH 218,000</li>
+        <li>BENZODIAZEPIN 81,000</li>
+        <li>BERSIHAN KREATININ 80,000</li>
+        <li>BETA HIDROKSI BUTIRAT 56,000</li>
+        <li>BILIRUBIN TOTAL + DIREK+INDIREK 84,000</li>
+        <li>C0CAIN 81,000</li>
+        <li>CALSIUM DARAH 56,000</li>
+        <li>CALSIUM ION 201,000</li>
+        <li>CALSIUM URIN 56,000</li>
+        <li>CHOLESTEROL HDL 75,000</li>
+        <li>CHOLESTEROL LDL 98,000</li>
+        <li>CHOLESTEROL TOTAL 58,000</li>
+        <li>CK 123,000</li>
+        <li>CKMB 140,000</li>
+        <li>ELEKTROFORESIS PROTEIN 202,000</li>
+        <li>ELEKTROLIT DARAH (Na, K, Cl) 139,000</li>
+        <li>ELEKTROLIT URIN (Na, K, Cl) 139,000</li>
+        <li>FE(SI) + TIBC + UIBC 240,000</li>
+        <li>FOLAT 590,000</li>
+        <li>FOSFAT INORGANIK DARAH 66,000</li>
+        <li>FOSFAT INORGANIK URIN 66,000</li>
+        <li>FOSFATASE ALKALI 62,000</li>
+        <li>FOSFATASE ASAM 374,000</li>
+        <li>GAMMA GT 66,000</li>
+        <li>GLIKO HB (HBA1C) 187,000</li>
+        <li>GLUKOSA 2 JAM PP 41,000</li>
+        <li>GLUKOSA PUASA 41,000</li>
+        <li>GLUKOSA RAPID (POCT) 41,000</li>
+        <li>GLUKOSA SEWAKTU 41,000</li>
+        <li>GLUKOSA URIN 41,000</li>
+        <li>GTT (3X : PUASA, 1 JAM, 2 JAM) 92,000</li>
+        <li>Hs TROPONIN I 453,000</li>
+        <li>KOLINESTERASE 73,000</li>
+        <li>KREATININ DARAH 47,000</li>
+        <li>KREATININ URIN 47,000</li>
+        <li>KURVA HARIAN (3X) 92,000</li>
+        <li>LACTAT 81,000</li>
+        <li>LDH 101,000</li>
+        <li>LIPASE DARAH 154,000</li>
+        <li>LIPASE URIN 154,000</li>
+        <li>MAGNESIUM 67,000</li>
+        <li>MARIJUANA (GANJA) 81,000</li>
+        <li>METAMPHETAMIN (ECTASY) 81,000</li>
+        <li>MIKROALBUMINURIA 127,000</li>
+        <li>MORPHINE (HEROIN, PUTAW,OPIAT) 81,000</li>
+        <li>NITROGEN URIN 56,000</li>
+        <li>NT- PROBNP 482,000</li>
+        <li>OSMOLARITAS PLASMA 70,000</li>
+        <li>OSMOLARITAS URIN 70,000</li>
+        <li>PROTEIN KWANTITATIF URIN 56,000</li>
+        <li>PROTEIN TOTAL 50,000</li>
+        <li>SGOT (AST) 50,000</li>
+        <li>SGPT (ALT) 50,000</li>
+        <li>TRIGLISERIDA 58,000</li>
+        <li>TROPONIN T 373,000</li>
+        <li>TSH NEONATUS 78,000</li>
+        <li>TSH 160,000</li>
+        <li>UREA CLEARANCE 97,000</li>
+        <li>UREUM DARAH 58,000</li>
+        <li>UREUM URIN 58,000</li>
+        <li>25-OH VITAMIN D TOTAL 379,000</li>
+        <li>AFP 198,000</li>
+        <li>ANA 500,000</li>
+        <li>ANTI DENGUE IGG + IGM 247,000</li>
+        <li>ANTI DS-DNA 338,000</li>
+        <li>ANTI HAV IGM 291,000</li>
+        <li>ANTI HBC IGM 291,000</li>
+        <li>ANTI HBC TOTAL 174,000</li>
+        <li>ANTI HBE 362,000</li>
+        <li>ANTI HBs 122,000</li>
+        <li>ANTI HCV Ig M 760,000</li>
+        <li>ANTI HCV TOTAL 240,000</li>
+        <li>ANTI HELICOBACTER PYLORI IGG 188,000</li>
+        <li>ANTI HELICOBACTER PYLORI IGM 135,000</li>
+        <li>ANTI HIV KONFIRMASI (WB) 997,000</li>
+        <li>ANTI HIV PENYARING 328,000</li>
+        <li>ANTI MULLERIAN HORMON 520,000</li>
+        <li>ANTI -TB IG M 311,000</li>
+        <li>ANTI -TB TOTAL 127,000</li>
+        <li>ASTO KUANTIATIF 125,000</li>
+        <li>BETA 2 GLIKOPROTEIN IGG 306,000</li>
+        <li>BETA 2 GLIKOPROTEIN IGM 306,000</li>
+        <li>BETA HCG (KUANTITATIF) 311,000</li>
+        <li>C3 252,000</li>
+        <li>C4 252,000</li>
+        <li>CA 125 347,000</li>
+        <li>CA 15-3 428,000</li>
+        <li>CA 19-9 348,000</li>
+        <li>CD 14 382,000</li>
+        <li>CD 19 382,000</li>
+        <li>CD 20 198,000</li>
+        <li>CD 3 + CD 4 + (T HELPER LYMPHOCYTE) 437,000</li>
+        <li>CD 4 194,000</li>
+        <li>CD 56 382,000</li>
+        <li>CEA 240,000</li>
+        <li>CHLAMYDIA TR IgG 432,000</li>
+        <li>CHLAMYDIA TR IgM 432,000</li>
+        <li>CRP (KUANTITATIF) 135,000</li>
+        <li>CRP HS 338,000</li>
+        <li>ESTRADIOL 278,000</li>
+        <li>FERRITIN 173,000</li>
+        <li>FREE PSA 528,000</li>
+        <li>FREE T3 165,000</li>
+        <li>FREE T4 165,000</li>
+        <li>FREE TESTOTERON 237,000</li>
+        <li>FSH 257,000</li>
+        <li>FTI (FREE TYHROXINE INDEX ) 361,000</li>
+        <li>H1N1 (RAPID SWAB) 438,000</li>
+        <li>HBeAg 368,000</li>
+        <li>HBsAg 113,000</li>
+        <li>HBV DNA 2,000,000</li>
+        <li>HCV RNA 2,750,000</li>
+        <li>HUMAN IL-6 511,000</li>
+        <li>ICT TB 127,000</li>
+        <li>IGA. 278,000</li>
+        <li>IGE 250,000</li>
+        <li>IGG 250,000</li>
+        <li>IGG ANTI CARDIOLIPIN 250,000</li>
+        <li>IGG ANTI CMV 192,000</li>
+        <li>IGG ANTI HSV 1 225,000</li>
+        <li>IGG ANTI HSV II 225,000</li>
+        <li>IGG ANTI RUBELLA 171,000</li>
+        <li>IGG ANTI TOXOPLASMA 211,000</li>
+        <li>IGM ANTI CARDIOLIPIN 275,000</li>
+        <li>IGM ANTI CMV 201,000</li>
+        <li>IGM ANTI HSV I 225,000</li>
+        <li>IGM ANTI HSV II 225,000</li>
+        <li>IGM ANTI RUBELLA 211,000</li>
+        <li>IGM ANTI TOXOPLASMA 225,000</li>
+        <li>IGM. 285,000</li>
+        <li>IMUNOFIKSASI 641,000</li>
+        <li>IMUNOFIKSASI LIGHT CHAIN 641,000</li>
+        <li>INHIBIN B ELISA 582,000</li>
+        <li>INSULIN 142,000</li>
+        <li>INTERFERRON GAMMA RELEASING ASSAY(IGRA) 1,107,000</li>
+        <li>LEUKIMIA PHENOTYPING 1,000,000</li>
+        <li>LH 267,000</li>
+        <li>LYMPHOCYTE CD 45 382,000</li>
+        <li>LYMPHOSIT SUBSET 483,000</li>
+        <li>MYCOPLASMA IgG 432,000</li>
+        <li>MYCOPLASMA IgM 432,000</li>
+        <li>NS-1 ANTIGEN 411,000</li>
+        <li>PAKET CD 34 (TOTAL CD 34 + VIABILITY CD 34 877,000</li>
+      </ul>
+    </div>
+    <div class="dua">
+      <ul>
+        <li>PAKET CD 4 + CD 8 396,000</li>
+        <li>PAKET STEM CELL (CD33, CD 34, DAN CD 133) 1,094,000</li>
+        <li>PCR HIV (VIRAL LOOD) 1,033,000</li>
+        <li>PCR HIV (VIRAL LOOD) DISCOUNT 50% 381,000</li>
+        <li>PCR TB 500,000</li>
+        <li>PRESEPSIN 816,000</li>
+        <li>PROCALCITONIN 562,000</li>
+        <li>PROGESTERON 272,000</li>
+        <li>PROLAKTIN 267,000</li>
+        <li>PSA TOTAL 268,000</li>
+        <li>RF. 123,000</li>
+        <li>SALMONELLA IG M 200,000</li>
+        <li>SHBG 192,000</li>
+        <li>SIKLOSPORIN 1,627,000</li>
+        <li>T3 160,000</li>
+        <li>T3 UPTAKE 201,000</li>
+        <li>T4 160,000</li>
+        <li>TACROLIMUS 1,102,000</li>
+        <li>TES KEHAMILAN 55,000</li>
+        <li>TPHA 112,000</li>
+        <li>TYROGLOBULIN 514,000</li>
+        <li>UREA BREATH TEST / UBT 1,482,000</li>
+        <li>VDRL 60,000</li>
+        <li>WIDAL 89,000</li>
+        <li>BIAKAN +RES SS DARAH 299,000</li>
+        <li>BIAKAN +RES SS SPUTUM 299,000</li>
+        <li>BIAKAN +RES SS TINJA 500,000</li>
+        <li>BIAKAN +RES SS URIN 500,000</li>
+        <li>BIAKAN AEROB LAIN-LAIN 350,000</li>
+        <li>BIAKAN AEROB PUS 350,000</li>
+        <li>BIAKAN AEROB SPUTUM 350,000</li>
+        <li>BIAKAN AEROB URINE 350,000</li>
+        <li>BIAKAN ANAEROB LAIN-LAIN 600,000</li>
+        <li>BIAKAN ANAEROB PUS 600,000</li>
+        <li>BIAKAN ANAEROB SWAB 502,000</li>
+        <li>BIAKAN ANAEROB URINE 502,000</li>
+        <li>BIAKAN BTA LAIN LAIN 750,000</li>
+        <li>BIAKAN BTA SPUTUM 750,000</li>
+        <li>BIAKAN BTA TINJA 750,000</li>
+        <li>BIAKAN BTA URINE 750,000</li>
+        <li>BIAKAN DARAH SITO (VITEK) 524,000</li>
+        <li>BIAKAN SS+RES SWAB 306,000</li>
+        <li>BIAKAN THAYER MARTHIN 199,000</li>
+        <li>BIAKAN+RES AEROB LKP DARAH 600,000</li>
+        <li>BIAKAN+RES AEROB LKP LAIN LAIN 600,000</li>
+        <li>BIAKAN+RES AEROB LKP PUS 600,000</li>
+        <li>BIAKAN+RES AEROB LKP SWAB 600,000</li>
+        <li>BIAKAN+RES AEROB LKP TINJA 600,000</li>
+        <li>BIAKAN+RES AEROB LKP URIN 600,000</li>
+        <li>BIAKAN+RES AEROB SPUTUM 600,000</li>
+        <li>BIAKAN+RES AEROB TINJA 320,000</li>
+        <li>BIAKAN+RES ANAEROB STD DARAH 650,000</li>
+        <li>BIAKAN+RES ANAEROB STD LAIN-LAIN 650,000</li>
+        <li>BIAKAN+RES ANAEROB STD PUS 650,000</li>
+        <li>BIAKAN+RES ANAEROB STD SPUTUM 623,000</li>
+        <li>BIAKAN+RES ANAEROB STD SWAB 623,000</li>
+        <li>BIAKAN+RES ANAEROB STD URINE 623,000</li>
+        <li>MIC MEROPENEM 203,000</li>
+        <li>PEWARNAAN JAMUR 76,000</li>
+        <li>PULASAN GRAM LAIN-LAIN 52,00</li>
+        <li>PULASAN GRAM PUS 52,000</li>
+        <li>PULASAN GRAM SPUTUM 52,000</li>
+        <li>PULASAN GRAM SWAB 52,000</li>
+        <li>PULASAN TAHAN ASAM DARAH 52,000</li>
+        <li>PULASAN TAHAN ASAM LAIN-LAIN 52,000</li>
+        <li>PULASAN TAHAN ASAM PUS 52,000</li>
+        <li>PULASAN TAHAN ASAM SPUTUM 52,000</li>
+        <li>PULASAN TAHAN ASAM SWAB 52,000</li>
+        <li>PULASAN TAHAN ASAM TINJA 52,000</li>
+        <li>PULASAN TAHAN ASAM URINE 52,000</li>
+        <li>TB ANTIGEN 315,000</li>
+        <li>AGREGAGSI TROMBOSIT (ADP) 202,000</li>
+        <li>AGREGASI TROMBOSIT (RISTOCETIN) 290,000</li>
+        <li>ANALISA CAIRAN ASITES 290,000</li>
+        <li>ANALISA CAIRAN DIALISIS EMPEDU 290,000</li>
+        <li>ANALISA CAIRAN DIALISIS PERICARD 290,000</li>
+        <li>ANALISA CAIRAN DIALISIS PERITO 290,000</li>
+        <li>ANALISA CAIRAN OTAK 290,000</li>
+        <li>ANALISA CAIRAN PLEURA 290,000</li>
+        <li>ANALISA CAIRAN SENDI 290,000</li>
+        <li>ANALISA CAIRAN TUBUH LAINNYA 290,000</li>
+        <li>ANALISA FESES KHUSUS 319,000</li>
+        <li>ANALISA HB 328,000</li>
+        <li>APT TEST 67,000</li>
+        <li>APTT 100,000</li>
+        <li>ASSAY FAKTOR IX 504,000</li>
+        <li>ASSAY FAKTOR VIII 504,000</li>
+        <li>AT-III 442,000</li>
+        <li>CLOSTRIDIUM DEFFICILE 274,000</li>
+        <li>DARAH SAMAR AB MONOKLONAL 75,000</li>
+        <li>D-DIMER 233,000</li>
+        <li>1 ECLT (EUGLOBULIN CLOT LYSIS TIME) 170,000</li>
+        <li>ESBACH 52,000</li>
+        <li>FAKTOR VON WILLEBRAND 437,000</li>
+        <li>FIBRINOGEN 92,000</li>
+        <li>FILARIA 49,000</li>
+        <li>FREE LIGHT CHAIN KAPPA 515,000</li>
+        <li>FREE LIGHT CHAIN LAMDA 515,000</li>
+        <li>G6PD 209,000</li>
+        <li>GAMBARAN SUMSUM TULANG/BMP BAGIAN ANAK 246,000</li>
+        <li>GOLONGAN DARAH 54,000</li>
+        <li>HEMATOLOGI LENGKAP TANPA LED 86,000</li>
+        <li>HEMATOLOGI LENGKAP TANPA LED + I/T RATIO 147,000</li>
+        <li>HEMATOLOGI RUTIN 75,000</li>
+        <li>HEMOGLOBIN URIN 66,000</li>
+        <li>HEMOSIDERIN 73,000</li>
+        <li>INHIBITOR F VIII 548,000</li>
+        <li>JUMLAH EOSINOFIL 75,000</li>
+        <li>LAJU ENDAP DARAH 42,000</li>
+        <li>LE REAKSI 54,000</li>
+        <li>LUPUS ANTIKOAGULAN 506,000</li>
+        <li>MALARIA (ICT+Sediaan) PAKET 151,000</li>
+        <li>MASA PEMBEKUAN LEE&WHITE 42,000</li>
+        <li>MASA PENDARAHAN IVY 56,000</li>
+        <li>MIOGLOBIN URIN 45,000</li>
+        <li>MIX APTT 175,000</li>
+        <li>OBERMEYER / INDIKAN URIN 49,000</li>
+        <li>OVAL FAT BODIES 63,000</li>
+        <li>PAKET HEMATOLOGI ONKOLOGI (HEMA LENGKAP TANPA LED + RET-HE + RETICULOSIT + IPF)134,000</li>
+        <li>PAKET HEMATOLOGI ONKOLOGI + GAMBARAN DARAH TEPI 293,000</li>
+        <li>PAKET HEMATOLOGI ONKOLOGI + GAMBARAN SUMSUM TULANG 245,000</li>
+        <li>PENYARING F XIII 349,000</li>
+        <li>PERCOBAAN PEMBENDUNGAN 47,000</li>
+        <li>PROTEIN BENCE JONES (TSA 12%) 58,000</li>
+        <li>PROTEIN C 750,000</li>
+        <li>PROTEIN S 750,000</li>
+        <li>PT + INR 72,000</li>
+        <li>PT. 72,000</li>
+        <li>RESISTENSI OSMOTIK 69,000</li>
+        <li>RETIKULOSIT 85,000</li>
+        <li>SEKRET HIDUNG 49,000</li>
+        <li>SEL LE 72,000</li>
+        <li>SUGAR WATER TEST + HAM TES 274,000</li>
+        <li>TES FUNGSI TROMBOSIT ASPIRIN 1,102,000</li>
+        <li>TES FUNGSI TROMBOSIT P2Y12 1,102,000</li>
+        <li>THROMBOTES 192,000</li>
+        <li>TINJA 64,000</li>
+        <li>TT (MASA TROMBIN ) 95,000</li>
+        <li>TT SERIAL 267,000</li>
+        <li>TZANCK CELL 114,000</li>
+        <li>URIN LENGKAP 56,000</li>
+        <li>VISKOSITAS PLASMA DAN DARAH (PAKET) 165,000</li>
+        <li>SARS COV-2 Real Time PCR 495,000</li>
+        <li>Rapid Test Antigen SARS COV-2 99,000</li>
+        <li>25-OH VIT D Total 380,500</li>
+        <li>SARS COV-2 TCM 1,200,000</li>
+        <li>CYFRA 220,000</li>
+        <li>ANTI AQUAPORIN-4 1,277,000</li>
+        <li>NMDA-R 1,327,000</li>
+      </ul>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

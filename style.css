@@ -1,0 +1,34 @@
+body {
+  padding-bottom: 500px;
+}
+.satu {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  width: 50%;
+  cursor: pointer;
+}
+.dua {
+  width: 50%;
+  margin-top: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.tiga {
+  width: 20%;
+  height: 200px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+label {
+  margin-left: 10px;
+}
+button {
+  background-color: #fafa;
+  margin-left: 110px;
+}
+h1 {
+  color: blue;
+}
